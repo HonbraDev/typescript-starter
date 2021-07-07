@@ -16,7 +16,7 @@ try {
 } catch (error) {
   console.error(
     chalk.red(
-      "Cannot import compiled script. Please compile the code by running 'npm run build'."
+      "Cannot import compiled code. Please compile the code by running 'npm run build'."
     )
   );
   process.exit(1);
