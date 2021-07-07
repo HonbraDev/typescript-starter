@@ -1,7 +1,5 @@
-import main from "./main";
+// The main TypeScript execution file loaded by start.js
 
-main()
-  .then((result: any) => {
-    if (result) console.log(result);
-  })
-  .catch((error) => console.error(error));
+export default async function main() {
+  console.log("Hello, world!");
+}
